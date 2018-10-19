@@ -1,0 +1,6 @@
+<h1> Quotes site </h1>
+<hr>
+<p> Variety of quotes displayed {{Quotes}} </p>
+<ol>
+    <li *ngFor="let quote of quotes">{{quote.description}} ~ author: {{quote.authorname}}. Uploader: {{quote.uploadername}}</li>
+</ol>
