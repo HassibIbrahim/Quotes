@@ -1,4 +1,6 @@
 export class Quote {
-
-    constructor(public id:number,public description:string,public authorname:string,public uploadername:string){}
+    public showInfo:boolean;
+    constructor(public id:number,public name:string,public author:string,public uploader:string,public likes:number,public dislikes:number,public submitDate:Date){
+        this.showInfo=false
+    }
 }
