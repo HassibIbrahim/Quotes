@@ -23,11 +23,11 @@ export class QuoteComponent implements OnInit {
       this.quotes.splice(index,1);
     }
   }
-  likesQuote(index){
-    this.quotes[index].likes++;
+  likeQuote(index){
+    this.quotes[index].like++;
   }
-  dislikesQuotes(index){
-    this.quotes[index].dislikes++;
+  dislikeQuotes(index){
+    this.quotes[index].dislike++;
   }
   addNewQuote (quote){
     let quoteLength= this.quotes.length;
