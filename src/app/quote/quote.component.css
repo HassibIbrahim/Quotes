@@ -1,0 +1,57 @@
+#container {
+  width: 800px;
+  margin: 70px auto;
+  background-color: #FFC300;
+  box-shadow: 0 0 10px #FF5D00;
+}
+
+h1{
+    background-color: #698a1c;
+    color: #FFC300;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'UnifrakturMaguntia';
+    font-size: 40px;
+
+}
+
+ul:before {
+    content: ""; 
+    padding-right: 8px;
+}
+
+button {
+    margin: 1em;
+  }
+
+.quote {
+    background-color: rgb(236, 190, 236);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left:1em;
+    margin-right: 3em;
+  
+  }
+
+  #like{
+    background-color: aquamarine;
+    margin: 1em;
+  }
+
+  #dislike{
+    background-color: rgba(255, 0, 0, 0.315);
+    margin: 1em;
+  }
+
+  #moreDetails {
+    background-color: rgba(0, 0, 255, 0.315);
+    margin: 1em;
+  }
+  
+  #quoteBody {
+    font-style: italic;
+  }
