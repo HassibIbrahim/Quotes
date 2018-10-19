@@ -2,5 +2,8 @@
 <hr>
 <p> Variety of quotes displayed {{Quotes}} </p>
 <ol>
-    <li *ngFor="let quote of quotes">{{quote.description}} ~ author: {{quote.authorname}}. Uploader: {{quote.uploadername}}</li>
+  <div *ngFor="let quotes of quote">
+      <li>{{quote.description}}</li>
+        <app-quote-details [quote]='quote'></app-quote-details>
+  </div>
 </ol>
