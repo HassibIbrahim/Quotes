@@ -1,27 +1,44 @@
-# Quotes
+QUOTE
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.5.
+A program where a user can view and submit quotes
+By Hassib Ibrahim
 
-## Development server
+#Description
+Quote is an application where users can create quotes and have those quotes voted on whether they are terrible or are inspirational.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+#Setup/Installation Requirements
+Open the webpage and view quotes that have already been submitted.
+Tap the plus icon to see who submitted the quote and how long ago they submitted it. You are also provided with the option to delete the quote.
+Tap the up arrow icon to upvote a quote you find inspirational.
+Tap the down arrow icon to downvote a quote you find terrible.
+Submit your quote by filling the form at the bottom of the page.
+Specifications
+Create a new quote.
+Like or dislike a quote.
+Delete a quote
+See the number of like and number of dislike for each quote.
 
-## Code scaffolding
+#Known Bugs & Missing Features
+Issues with the buttons
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+Technologies & Resources Used
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+#Technologies used:
+HTML
+CSS
+Bootstrap
+TypeScripts
+Angular CLI 
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#Resources used:
+Google Fonts - Source of fonts used in the project.
+Font Awesome - Source of icons used in the project.
+uiGradients - Source of the CSS gradient used as background in the project.
+Support and contact details
+For more info or assistance, please contact:
 
-## Running end-to-end tests
+Hassib Ibrahim- ihassib@gmail.com
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+License-MIT©
