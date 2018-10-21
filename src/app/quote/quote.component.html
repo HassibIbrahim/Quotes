@@ -6,9 +6,9 @@
         <li >
           <span id='quoteBody'>"{{quote.name }}"</span> - <span id='#authorBody'>{{quote.author}}</span>
         </li>
-        <button (click)='toggleDetails(i)' id='showInfo'><i class="fas fa-plus"></i></button>
-        <button (click)='like(i)' id='like'><i class="fas fa-arrow-up"></i>{{quote.upvotes}}</button>
-        <button (click)='dislike(i)' id='dislike'><i class="fas fa-arrow-down"></i>{{quote.downvotes}}</button>
+        <button (click)='toggleDetails(i)' id='moreDetails'><i class="fas fa-plus"></i></button>
+        <button (click)='upvote(i)' id='upvote'><i class="fas fa-arrow-up"></i>{{quote.upvotes}}</button>
+        <button (click)='downvote(i)' id='downvote'><i class="fas fa-arrow-down"></i>{{quote.downvotes}}</button>
         <app-quote-details *ngIf='quote.showDetails' [quote]='quote' (isDelete)='deleteQuote($event,i)'></app-quote-details>
       </div>
     </ul>

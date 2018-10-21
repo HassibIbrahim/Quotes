@@ -15,20 +15,20 @@ export class QuoteComponent implements OnInit {
     new Quote(3,"No idea is original, there's nothing new under the sun, it's never what you do, but how it's done","Nasir Ole Dara","Shabbaman",0,0,new Date(2018,10,9)),
     new Quote(4,"You wanna hate me, then hate me; what can I do But keep getting money? Funny, I was just like you I had to hustle hard, never give up, until I made it Now you all saying Thats a clever nigga, nothing to play with.","Escobar","Shabbaman",0,0,new Date(2018,10,7))
   ]
-  toogleDetails(index){
-    this.quotes[index].showInfo = !this.quotes[index].showInfo;
+  toggleDetails(index){
+    this.quotes[index].showDetails = !this.quotes[index].showDetails
   }
   deleteQuote(isDelete,index){
     if(isDelete){
       this.quotes.splice(index,1);
     }
   }
-  likeQuote(index){
-    this.quotes[index].like++;
+  upvote(index){
+    this.quotes[index].upvotes++;
   }
-  dislikeQuotes(index){
-    this.quotes[index].dislike++;
-  }
+  downvote(index){
+    this.quotes[index].downvotes++;
+    }
   addNewQuote (quote){
     let quoteLength= this.quotes.length;
     quote.id=quoteLength+1;
