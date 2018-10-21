@@ -29,7 +29,7 @@ button {
   }
 
 .quote {
-    background-color: rgb(236, 190, 236);
+    background-color: rgb(230, 101, 92);
     margin-top: 1em;
     margin-bottom: 1em;
     margin-left:1em;
@@ -37,12 +37,12 @@ button {
   
   }
 
-  #like{
+  #upvote{
     background-color: aquamarine;
     margin: 1em;
   }
 
-  #dislike{
+  #downvote{
     background-color: rgba(255, 0, 0, 0.315);
     margin: 1em;
   }
