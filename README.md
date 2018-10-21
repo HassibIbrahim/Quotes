@@ -8,11 +8,13 @@ Quote is an application where users can create quotes and have those quotes vote
 
 #Setup/Installation Requirements
 Open the webpage and view quotes that have already been submitted.
-Tap the plus icon to see who submitted the quote and how long ago they submitted it. You are also provided with the option to delete the quote.
-Tap the up arrow icon to upvote a quote you find inspirational.
-Tap the down arrow icon to downvote a quote you find terrible.
+Tap the plus icon to see who submitted the quote and how long ago they submitted it.
+You are also provided with the option to delete the quote.
+Tap the up arrow icon to like a quote you find inspirational.
+Tap the down arrow icon to dislike a quote you find terrible.
 Submit your quote by filling the form at the bottom of the page.
-Specifications
+
+#Specifications
 Create a new quote.
 Like or dislike a quote.
 Delete a quote
