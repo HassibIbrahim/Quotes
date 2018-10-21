@@ -32,15 +32,15 @@ Technologies used:
 5. Angular CLI 
 
 
-##Resources used:
+## Resources used:
 * Google Fonts - Source of fonts used in the project.
 * Font Awesome - Source of icons used in the project.
 * uiGradients - Source of the CSS gradient used as background in the project.
 
-##Support and contact details
+## Support and contact details
 For more info or assistance, please contact:
 
 Hassib Ibrahim- ihassib@gmail.com
 
-##License
+## License
 MIT©
